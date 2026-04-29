@@ -3,12 +3,12 @@ title {
   font-family: "Segoe UI", Roboto, system-ui, sans-serif;
   font-size: 2rem;
   margin: 0;
-  color: #1b2b4a;
+  color: brown;
 }
 
 /* 2) ID selector */
 header {
-  background: linear-gradient(180deg, #f0f8ff 0%, #e6f2ff 100%);
+  background: green;
   padding: 1rem 1.5rem;
   display: flex;
   align-items: center;
@@ -18,7 +18,7 @@ header {
 /* 3) Descendant selector */
 main-nav a {
   text-decoration: none;
-  color: #0b3a66;
+  color: black;
   font-weight: 600;
 }
 
