@@ -1,5 +1,5 @@
 /* 1) Class selector */
-.game-title {
+title {
   font-family: "Segoe UI", Roboto, system-ui, sans-serif;
   font-size: 2rem;
   margin: 0;
@@ -7,7 +7,7 @@
 }
 
 /* 2) ID selector */
-#site-header {
+header {
   background: linear-gradient(180deg, #f0f8ff 0%, #e6f2ff 100%);
   padding: 1rem 1.5rem;
   display: flex;
@@ -16,27 +16,27 @@
 }
 
 /* 3) Descendant selector */
-.main-nav a {
+main-nav a {
   text-decoration: none;
   color: #0b3a66;
   font-weight: 600;
 }
 
 /* 4) Descendant selector (second) */
-.features-list .feature-item {
+features-list {
   margin: 0.25rem 0;
   padding-left: 0.5rem;
 }
 
 /* 5) Combinator (adjacent sibling) */
-.intro-section + .features-section {
+features-section {
   margin-top: 1rem;
   padding-top: 1rem;
   border-top: 1px dashed #dfeefc;
 }
 
 /* 6) Attribute selector */
-div[data-role="feature-block"] {
+div {
   background: #fbfdff;
   border: 1px solid #e6f3ff;
   padding: 0.75rem;
@@ -59,7 +59,7 @@ main {
   color: #13324a;
 }
 
-#site-footer {
+footer {
   text-align: center;
   padding: 1rem;
   background: #f7fbff;
